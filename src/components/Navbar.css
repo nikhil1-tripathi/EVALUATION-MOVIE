@@ -1,0 +1,47 @@
+#Navbar {
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: palevioletred;
+    height: 55px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0px;
+    z-index: 1000;
+
+}
+
+#Navbar_box1 {
+    display: flex;
+    float: left;
+    width: 300px;
+    color: palegoldenrod;
+}
+
+#Navbar_box1>p {
+    margin-left: 0px;
+    margin-top: 15px;
+    color: palegoldenrod;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+a:hover {
+    font-size: 29px;
+}
+
+#Navbar_box2 {
+    display: flex;
+    margin-left: 655px;
+    /* border: 1px solid black; */
+
+}
+
+#Navbar_box2>a {
+    margin-left: 10px;
+    margin-top: 15px;
+    color: palegoldenrod;
+    font-weight: bolder;
+    padding-left: 5px;
+    font-style: italic;
+}
